@@ -1,0 +1,48 @@
+header{
+    height: 10%;
+    background-color: rgb(0, 0, 255);
+    color: #fff;
+}
+
+.img-h1{
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 2px 3px;
+}
+p:nth-of-type(even){
+    background-color: yellow;
+}
+p:nth-of-type(odd){
+    background-color: orange;
+}
+footer{
+    height: 13%;
+    background-color: rgb(0,0,0);
+    color: rgb(255, 0, 0);
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+.trans1{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    transition: background-color 5s;
+    transition-delay: 3s;
+    transition-timing-function: ease-out;
+}
+.trans1:hover{
+    background-color: black;
+    border-radius: 50%;
+}
+.trans2{
+    height:50px;
+    width:50px;
+    transition: height 4s;
+    background-color: black;
+    transition-delay: 3s;
+    transition-timing-function: ease-in;
+}
+.trans2:hover{
+    height:500px;
+}
