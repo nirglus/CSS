@@ -11,6 +11,7 @@ section{
     border: solid;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin-bottom: -2px;
 }
 .black{
     background-color: #000;
@@ -18,9 +19,17 @@ section{
     height: 30px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-top: 25px;
+    margin-top:-25px;
     position: relative;
+    margin-bottom: -9px;
   
+}
+.bfj-keys{
+    margin-top:-7px;
+    margin-bottom: -6px;
+}
+.cgk-keys{
+    margin-top:-7px;
 }
 span{
     color:#fff;
@@ -36,3 +45,4 @@ span{
 .white:hover span{
     display: block;
 }
+
