@@ -11,9 +11,6 @@ section{
     border: solid;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-
-    
-    
 }
 .black{
     background-color: #000;
@@ -21,13 +18,21 @@ section{
     height: 30px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-top: -25px;
+    margin-top: 25px;
     position: relative;
-    
+  
 }
-p{
-    width:10px;
-    color:#ffffff;
-    text-align: right;
-    margin-left:410px;
+span{
+    color:#fff;
+    font-size: large;
+    left: 430px;
+    display: none;
+    width:30px;
+    position: absolute;   
+}
+.white:hover, .black:hover{
+    box-shadow:3px 1px 2px 3px #000, 2px 0px 4px 3px inset #000;
+}
+.white:hover span{
+    display: block;
 }
